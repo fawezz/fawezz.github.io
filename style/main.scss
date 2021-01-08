@@ -34,3 +34,12 @@ h1{
         margin: 0 10px;
     }
 }
+.social{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+span {
+    color: $font-primary;
+    margin: 10px;
+}

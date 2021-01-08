@@ -39,12 +39,27 @@ h1 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  color: #DE369D;
+  color: #A3CEF1;
   font-size: 1.2rem;
   letter-spacing: 1px;
 }
 
 .pros p {
   margin: 0 10px;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1rem;
+}
+
+span {
+  color: #EDF2F4;
+  margin: 10px;
 }
 /*# sourceMappingURL=main.css.map */
