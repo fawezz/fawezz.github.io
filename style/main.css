@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+* {
+  margin: 0;
+}
+
+html, body {
+  font-family: "Ubuntu Mono", monospace;
+  background: #0C090D;
+  color: #EDF2F4;
+  height: 100%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  word-spacing: -20px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.pros {
+  font-family: "Open Sans", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #DE369D;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+.pros p {
+  margin: 0 10px;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,36 @@
+// imported 
+@import "assets";
+
+// styling
+*{
+    margin: 0;
+}
+html, body{
+    font-family: $font1;
+    background: $bg;
+    color: $font-primary;
+    height: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 4rem;
+    font-weight: 700;
+    word-spacing: -20px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.pros{
+    font-family: $font2;
+    display: flex;
+    justify-content: space-between;
+    color: $font-secondary;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    p{
+        margin: 0 10px;
+    }
+}
